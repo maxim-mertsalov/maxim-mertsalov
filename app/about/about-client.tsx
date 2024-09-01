@@ -46,11 +46,13 @@ export default function AboutClient() {
   const [activeBody, setActiveBody] = useState<string[]>([])
 
   const [loaded, setLoaded] = useState(false);
+  const [webLoaded, setWebLoaded] = useState(false);
 
   const redUrl = async () => {
     if (!loaded) {
-      if (!fileParam || !titleParam) {
+      if ((!fileParam || !titleParam) && !webLoaded ) {
         router.push(`${pathname}?file=${activeFile.path}&title=${activeFile.title}`);
+        setWebLoaded(true)
       }
       const data = await getData(activeFile.path as string, activeFile.title as string)
       if (data.status != 200) {
