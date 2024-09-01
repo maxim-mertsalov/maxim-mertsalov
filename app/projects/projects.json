@@ -1,0 +1,49 @@
+[
+    {
+        "id": 0,
+        "title": "The Family Estate",
+        "category": [
+            "landing",
+            "blog"
+        ],
+        "stack": [
+            "nextjs",
+            "scss",
+            "mongodb"
+        ],
+        "desc": "Landyng website with elements of blog about estates with contact form",
+        "link": "https://family-estate-landyng-git-main-maxim-mertsalov.vercel.app/",
+        "preview": "/projects/cyprus.webp"
+    },
+    {
+        "id": 1,
+        "title": "Smart Scriptolog",
+        "category": [
+            "landing",
+            "blog",
+            "active"
+        ],
+        "stack": [
+            "nextjs",
+            "scss",
+            "mongodb"
+        ],
+        "desc": "Landyng website about sales with multylanguages functionality",
+        "link": "https://s-script.site",
+        "preview": "/projects/s-script.webp"
+    },
+    {
+        "id": 2,
+        "title": "Dobrobut Nacii",
+        "category": [
+            "landing",
+            "not_published"
+        ],
+        "stack": [
+            "html&css&js"
+        ],
+        "desc": "Landyng website about interactive finance game for children and adults",
+        "link": "https://maxim-mertsalov.github.io/dobrobut-nacii/",
+        "preview": "/projects/dobrobut.webp"
+    }
+]

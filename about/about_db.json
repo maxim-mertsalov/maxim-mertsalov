@@ -1,0 +1,57 @@
+[
+    {
+        "type": "folder",
+        "title": "work",
+        "items": [
+            {
+                "type": "file",
+                "lang": "md",
+                "title": "about_me.md",
+                "path": "work/about_me.md"
+            },
+            {
+                "type": "file",
+                "lang": "md",
+                "title": "prof_skills.md",
+                "path": "work/prof_skills.md"
+            },
+            {
+                "type": "file",
+                "lang": "md",
+                "title": "tech_stack.md",
+                "path": "work/tech_stack.md"
+            },
+            {
+                "type": "file",
+                "lang": "md",
+                "title": "my_skills_way.md",
+                "path": "work/my_skills_way.md"
+            }
+        ]
+    },
+    {
+        "type": "folder",
+        "title": "personal",
+        "items": [
+            {
+                "type": "file",
+                "lang": "text",
+                "title": "personal.md",
+                "path": "personal/personal.md"
+            }
+            
+        ]
+    },
+    {
+        "type": "file",
+        "lang": "md",
+        "title": "readme.md",
+        "path": "readme.md"
+    },
+    {
+        "type": "file",
+        "lang": "text",
+        "title": "copyright.md",
+        "path": "copyright.md"
+    }
+]

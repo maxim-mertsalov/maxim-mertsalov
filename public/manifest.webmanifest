@@ -1,0 +1,63 @@
+{
+    "theme_color": "#0d1117",
+    "background_color": "#010409",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://maxim-mertsalov.vercel.app/",
+    "name": "Maxim Mertsalov",
+    "short_name": "Maxim Mertsalov",
+    "description": "Maxim Mertsalov portfolio fullstack web developer, who use ReactJS, NextJS, Rust, ActixWeb, tauri in my works",
+    "lang": "en",
+    "icons": [
+        {
+            "src": "/icon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": [
+        "lifestyle",
+        "business",
+        "portfolio",
+        "landing",
+        "web",
+        "development"
+    ],
+    "screenshots": [
+        {
+            "src": "screenshots/home.png",
+            "sizes": "1280x720",
+            "label": "Home page"
+        },
+        {
+            "src": "screenshots/about.png",
+            "sizes": "1280x720",
+            "label": "About page"
+        },
+        {
+            "src": "screenshots/projects.png",
+            "sizes": "1280x720",
+            "label": "Projects page"
+        },
+        {
+            "src": "screenshots/contact.png",
+            "sizes": "1280x720",
+            "label": "Contact page"
+        }
+    ]
+}

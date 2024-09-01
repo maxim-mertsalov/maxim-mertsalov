@@ -1,0 +1,28 @@
+.text-bl{
+    margin-top: 20vh;
+    h1,h3,h6{
+        font-weight: 400;
+    }
+    h6{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 22px;
+        color: var(--color-fn-bl);
+        margin-bottom: 60px;
+    }
+    p{
+        font-size: 14px;
+        color: var(--color-fn-gr);
+        
+    }
+}
+
+@media (max-width:600px) {
+    .text-bl{
+        margin-top: 10vh;
+    }
+}

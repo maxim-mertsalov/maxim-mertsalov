@@ -1,0 +1,3 @@
+Copyright
+
+When creating the site, I took as a basis the design of another designer - WindFleuret. You can <span class='link-p'><a href='https://www.figma.com/file/qAMjdU5KOTb6K9PB4EpHoV/Portfolio-for-Developers-(Copy)?type=design&node-id=0%3A1&mode=design&t=qRifgZ2qsRWk5Odp-1' class='a'> see here</a><a href='https://www.figma.com/file/qAMjdU5KOTb6K9PB4EpHoV/Portfolio-for-Developers-(Copy)?type=design&node-id=0%3A1&mode=design&t=qRifgZ2qsRWk5Odp-1' class='link_label'><span class='bl'>Follow link</span>(click)</a></span>
