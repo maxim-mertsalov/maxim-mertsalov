@@ -36,7 +36,7 @@ export default function AboutClient() {
 
   const [activeFile, setActiveFile] = useState<FileType>({
     type: "file",
-    path: fileParam || "readme.md",
+    path: fileParam || "main.md",
     title: titleParam || "readme.md",
     lang: "md",
   })
