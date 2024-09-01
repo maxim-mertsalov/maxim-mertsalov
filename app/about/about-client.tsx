@@ -48,12 +48,14 @@ export default function AboutClient() {
   const [loaded, setLoaded] = useState(false);
   const [webLoaded, setWebLoaded] = useState(false);
 
+  // const startRedirect = () => router.push(`${pathname}?file=${activeFile.path}&title=${activeFile.title}`);
+
   const redUrl = async () => {
     if (!loaded) {
-      if ((!fileParam || !titleParam) && !webLoaded ) {
-        router.push(`${pathname}?file=${activeFile.path}&title=${activeFile.title}`);
-        setWebLoaded(true)
-      }
+      // if ((!fileParam || !titleParam) && !webLoaded ) {
+      //   // setTimeout(startRedirect, 2000)
+      //   setWebLoaded(true)
+      // }
       const data = await getData(activeFile.path as string, activeFile.title as string)
       if (data.status != 200) {
         setActiveBody(["Data not found!"])
