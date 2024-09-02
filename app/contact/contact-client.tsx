@@ -94,7 +94,7 @@ export default function ContactClient() {
               <textarea aria-label="Message field" required value={formData.body} onChange={e => setFormData({...formData, body: e.target.value})} id='message' name='message'/>
             </div>
             <div style={{paddingInline: "10px"}}>
-              <button aria-label="Send message" className='btnp' type='submit'>submit-message</button>
+              <button aria-label="Send message" id='sendBtn' className='btnp' type='submit'>submit-message</button>
             </div>
           </form>
         </div>
@@ -106,10 +106,10 @@ export default function ContactClient() {
                 <li><span className='rd'>const</span> button = <span className='bl'>document.querySelector</span>{"('"}<span className='yw'>#sendBtn</span>{"')"};</li>
                 <li></li>
                 <li><span className='rd'>const</span> message = {"{"}</li>
-                <li style={{paddingLeft: "12px"}}><span className='bl'>name</span>: &quot<span className='yw'>{formData.name}</span>&quot,</li>
-                <li style={{paddingLeft: "12px"}}><span className='bl'>email</span>: &quot<span className='yw'>{formData.email}</span>&quot,</li>
-                <li style={{paddingLeft: "12px"}}><span className='bl'>message</span>: &quot<span className='yw'>{formData.body}</span>&quot,</li>
-                <li style={{paddingLeft: "12px"}}><span className='bl'>date</span>: &quot<span className='yw'>{formData.date.toDateString()}</span>&quot</li>
+                <li style={{paddingLeft: "12px"}}><span className='bl'>name</span>: &quot;<span className='yw'>{formData.name}</span>&quot;,</li>
+                <li style={{paddingLeft: "12px"}}><span className='bl'>email</span>: &quot;<span className='yw'>{formData.email}</span>&quot;,</li>
+                <li style={{paddingLeft: "12px"}}><span className='bl'>message</span>: &quot;<span className='yw'>{formData.body}</span>&quot;,</li>
+                <li style={{paddingLeft: "12px"}}><span className='bl'>date</span>: &quot;<span className='yw'>{formData.date.toDateString()}</span>&quot;</li>
                 <li>{"}"}</li>
                 <li><span className='bl'>button.addEventListener</span>{"('"}<span className='yw'>click</span>{"'"}, () {"=> {"}</li>
                 <li style={{paddingLeft: "12px"}}><span className='bl'>form.send(<span className='yw'>message</span>)</span>;</li>
