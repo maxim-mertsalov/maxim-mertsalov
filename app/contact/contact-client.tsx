@@ -105,7 +105,7 @@ export default function ContactClient() {
               <ol>
                 <li><span className='rd'>const</span> button = <span className='bl'>document.querySelector</span>{"('"}<span className='yw'>#sendBtn</span>{"')"};</li>
                 <li></li>
-                <li><span className='rd'>const</span> message = {"{"}</li>
+                <li><span className='rd'>let</span> message = {"{"}</li>
                 <li style={{paddingLeft: "12px"}}><span className='bl'>name</span>: &quot;<span className='yw'>{formData.name}</span>&quot;,</li>
                 <li style={{paddingLeft: "12px"}}><span className='bl'>email</span>: &quot;<span className='yw'>{formData.email}</span>&quot;,</li>
                 <li style={{paddingLeft: "12px"}}><span className='bl'>message</span>: &quot;<span className='yw'>{formData.body}</span>&quot;,</li>
