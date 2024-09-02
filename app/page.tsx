@@ -38,7 +38,7 @@ export default function HomePage() {
                 "url":"https://maxim-mertsalov.vercel.app/",
                 "@id":"https://maxim-mertsalov.vercel.app/",
                 "publisher":{
-                  "@type":"Organization",
+                  "@type":"Person",
                   "name":"Maxim Mertsalov",
                   "url":"https://maxim-mertsalov.vercel.app/",
                   "@id":"https://maxim-mertsalov.vercel.app/"    
@@ -50,7 +50,6 @@ export default function HomePage() {
               "name":"Maxim Mertsalov",
               "url":"https://maxim-mertsalov.vercel.app/",
               "@id":"https://maxim-mertsalov.vercel.app/",
-              "worksFor":{"@id":"https://maxim-mertsalov.vercel.app/"},
               "jobTitle":{
                 "@type":"DefinedTerm",
                 "name":"Fullstack Web Developer",
