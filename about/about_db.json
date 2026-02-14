@@ -35,9 +35,21 @@
         "items": [
             {
                 "type": "file",
-                "lang": "text",
+                "lang": "md",
                 "title": "personal.md",
                 "path": "personal/personal.md"
+            },
+            {
+                "type": "file",
+                "lang": "md",
+                "title": "contrast.md",
+                "path": "personal/contrast.md"
+            },
+            {
+                "type": "file",
+                "lang": "md",
+                "title": "games.md",
+                "path": "personal/games.md"
             }
             
         ]

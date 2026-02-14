@@ -1,1 +1,3 @@
-This could be personal info, but I don't know nothing to write here
+Personal Info
+
+You can find my intersts about games or hobbies in other pages of the personal folder. 

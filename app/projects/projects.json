@@ -20,8 +20,7 @@
         "title": "Smart Scriptolog",
         "category": [
             "landing",
-            "blog",
-            "active"
+            "blog"
         ],
         "stack": [
             "nextjs",
@@ -36,8 +35,7 @@
         "id": 2,
         "title": "Dobrobut Nacii",
         "category": [
-            "landing",
-            "not_published"
+            "landing"
         ],
         "stack": [
             "html&css&js"
@@ -45,5 +43,38 @@
         "desc": "Landyng website about interactive finance game for children and adults",
         "link": "https://maxim-mertsalov.github.io/dobrobut-nacii/",
         "preview": "/projects/dobrobut.webp"
+    },
+    {
+        "id": 3,
+        "title": "Gravity Runner",
+        "category": [
+            "game"
+        ],
+        "stack": [
+            "java"
+        ],
+        "desc": "Java-based arcade game that challenges players to master spatial orientation using a gravity inversion mechanic",
+        "link": "https://github.com/maxim-mertsalov/GravityRunner",
+        "preview": "/projects/gravity_runner.webp"
+    },
+    {
+        "id": 4,
+        "title": "Rust Authentication Microservice",
+        "category": [
+            "server",
+            "DBs",
+            "backend",
+            "auth"
+        ],
+        "stack": [
+            "rust",
+            "actix-web",
+            "redis",
+            "postgres",
+            "JWT"
+        ],
+        "desc": "A high-performance, results-driven authentication service built with Rust and Actix Web",
+        "link": "https://github.com/maxim-mertsalov/rust-auth-microservice",
+        "preview": "/projects/rust_auth_microservice.webp"
     }
 ]

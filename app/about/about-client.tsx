@@ -144,7 +144,7 @@ export default function AboutClient() {
             {"./"}{activeFile.path}
           </div>
           <ol className='code'>
-            {loaded ? activeBody.map((el, i) => <li key={i}>{parse(el)}</li>) : <li className='gr'>Loading...</li>}
+            {loaded ? activeBody.map((el, i) => <li key={i}>{parse(el)}</li>) : <li className='gr'>{/* Loading... */}</li>}
           </ol>
         </div>
         <div className='snippets'></div>

@@ -1,7 +1,8 @@
-Stack of technologies, which i use:
+Stack of languages & technologies, which i use:
 
 Frontend:
 - HTML & CSS & JS
+- Typescript > JS
 - React
 - Nextjs
 - Scss
@@ -9,8 +10,16 @@ Frontend:
 
 Backend:
 - Nodejs
-- Mongodb
 - Expressjs
 - Postgresql
+- RedisDB
+- Mongodb
+- SurrealDB
 - ActixWeb(Rust)
-- Wordpres
+- RabbitMQ
+
+General:
+- Docker
+- Linux
+- Git
+

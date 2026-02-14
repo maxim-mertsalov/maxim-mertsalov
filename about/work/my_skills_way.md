@@ -17,4 +17,6 @@ My skills way
 |
 |-try to use tauri, ActixWeb
 |
+2024 - solve almast any tasks on ActixWeb
+|
 ...

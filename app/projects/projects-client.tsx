@@ -41,7 +41,8 @@ export default function ProjectsClient() {
       }
     })
     return skip
-  })
+  });
+  projectsData.reverse();
   // console.log(projectsData)
 
   return (
